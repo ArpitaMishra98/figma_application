@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;700&display=swap");
+@import url('@tldraw/tldraw/tldraw.css');
+
+
+body{
+  padding:0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+
+  justify-content: space-around;
+  gap: 50px;
+  padding: 5px;
+}
+
+.appbar {
+  box-shadow: inset;
+  background-color: #7c7f7c;
+
+}
+
+.headitems {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.items {
+  text-decoration: none;
+  color: rgb(243, 237, 237);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.loginbox {
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); 
+}
+
+.loginForm {
+  text-align: center;
+}
+
+.loginForm .MuiTypography-root {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.loginForm .MuiFormControl-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginForm .MuiInputBase-input {
+  font-size: 16px;
+}
+
+.loginForm .MuiFormLabel-root {
+  font-size: 14px;
+  color: #666666;
+}
+
+.loginForm .MuiOutlinedInput-root {
+  border-radius: 10px;
+}
+
+.loginForm .MuiButton-root {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.loginForm .MuiButton-root:hover {
+  background-color: #45a049;
+}
+
+.buttonlogpage{
+  display: flex;
+  gap: 20px;
+  
+}
+
+.viewprojectbox{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+
+}
+
+.viewprojectcard{
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0.1, 0.1); 
+  height: 300px;
+  border-radius: 25px;
+  background: linear-gradient(90deg, rgb(63, 115, 152) 0%, rgb(53, 103, 146) 35%,  rgb(177, 158, 114)100%);
+}
